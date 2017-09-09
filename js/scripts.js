@@ -1,10 +1,7 @@
 // scripts.js
+var a = prompt('Długosc boku');
+var h = prompt('Podaj wysokość');
+var triangleArea = a * h /2
 
-// coment 4
-var name = prompt('Enter your name');
-alert('Hello, ' + name); // coment allert
-console.log('Hello, ' + name); 
-/* 
-comment 2 
-comment 3
-*/
+alert('Twój wynik to ' + triangleArea);
+console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);

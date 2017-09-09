@@ -1,5 +1,5 @@
 {
-  "name": "kodilla-projekt8_3",
+  "name": "kodilla-projekt8_5",
   "version": "1.0.0",
   "description": "example js",
   "main": "index.js",
@@ -12,6 +12,13 @@
   "author": "GP",
   "license": "ISC",
   "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "dependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-jshint": "^1.1.0",
